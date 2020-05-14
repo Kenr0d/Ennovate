@@ -1,0 +1,354 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+
+.navbar {
+  background-color: #FFCC03 !important;
+}
+
+.seedbar {
+  background-color: #FFF !important;
+}
+
+.nav-link, .navbar-brand {
+  color: #000 !important;
+}
+
+.banner {
+  background-color: #FFCC03;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  /* font-size: 1.5rem; */
+  /* border-bottom: 0; */
+}
+
+.thisImg {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.idea {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.banner p a {
+  color: #000;
+}
+
+.slide {
+  /* margin: -1rem; */
+  padding: 5rem;
+  /* border-top: 0; */
+  text-align: center;
+  background-color: #04000D;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.assure {
+  background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/people.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100&;
+  height: 100vh;
+  color: #FFF;
+  position: relative;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.overlay {
+  padding: 24rem 65rem;
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+
+.assura-mid {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.catalogue {
+  margin-top: 3rem;
+}
+.cata, .log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gue a {
+  color: #000;
+}
+.footer {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 2rem;
+}
+/* .main-footer {
+  margin-left: 2rem;
+} */
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+.form-inline input {
+  vertical-align: middle;
+  /* margin: 5px 5px; */
+  padding: 5px 12px;
+  background-color: inherit;
+  color: #FFF;
+  border: 1px solid #ddd;
+}
+.form-inline button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #000;
+  font-weight: bold;
+}
+.form-inline button:hover {
+  background-color: grey;
+}
+
+
+.fab {
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 50%!important;
+  color: #fff;
+  /* margin: 1rem; */
+}
+
+.main {
+  margin-left: 3rem;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid #FFF;
+  border-top-style: none;
+}
+
+.work {
+  font-family: 'Poppins', sans-serif;
+  padding: 5rem;
+
+}
+
+.w1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 5rem;
+  font-weight: bold;
+}
+.idea {
+  text-align: center;
+}
+.ide {
+  width: 70%;
+}
+.ida {
+  width: 50%;
+}
+.wo {
+  font-weight: bold;
+}
+.lil a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.mon h2 {
+  margin: 4% 9%;
+}
+.about a, .min a {
+  color: #FFF;
+}
+
+.subscribe a, .space a {
+  color: #000;
+}
+
+.startups a {
+  color: #000;
+
+}
+.changemakers {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/people.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.wordpress {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/wordpress.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.startup {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/startup.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.change {
+  color: #FFF;
+  position: relative;
+  bottom: -16rem;
+  left: 4rem;
+}
+
+.community {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commune {
+  color: #FFF;
+  position: relative;
+  bottom: -30rem;
+  left: 3rem;
+}
+
+.comm {
+  color: #FFF;
+  position: relative;
+  bottom: -25rem;
+  left: 3rem;
+}
+
+.worker {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/work.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+.worke {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/work.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.working {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/work.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.ject {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/work.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 65vh;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.purse {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.book {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.ctct {
+  font-weight: bold;
+}
+
+.virtual {
+  border-top: 1px solid black;
+}
+
+.va {
+  border-top: 1px solid yellow;
+}
+.grad {
+  background-image: linear-gradient(white 60%, yellow 40%);
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: .5rem;
+  }
+  .wordpress, .worker, .pro {
+    margin-bottom: 3rem;
+  }
+}
+
+
+/* .proj {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/work.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+} */
+
+/* @media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+} */
